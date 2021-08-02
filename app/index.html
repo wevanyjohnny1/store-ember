@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>StoreEmber</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {{content-for "head"}}
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css"
+    integrity="sha512-YTuMx+CIxXa1l+j5aDPm98KFbVcYFNhlr2Auha3pwjHCF1lLbY9/ITQQlsUzdM1scW45kHC5KNib4mNa1IFvJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+  <link integrity="" rel="stylesheet" href="{{rootURL}}assets/store-ember.css">
+
+  {{content-for "head-footer"}}
+</head>
+
+<body>
+  {{content-for "body"}}
+
+  <script src="{{rootURL}}assets/vendor.js"></script>
+  <script src="{{rootURL}}assets/store-ember.js"></script>
+
+  {{content-for "body-footer"}}
+</body>
+
+</html>
